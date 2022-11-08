@@ -2,13 +2,13 @@
 <html>
 <head>
 <style>
-/* Precedencia por orden de aparición */
+/* Precedencia especificidad */
 
-p {
+p#parrafo3 {
   background-color: blue;
 }
 
-p {
+p.impar {
   background-color: gray;
 }
 
@@ -19,11 +19,11 @@ p {
 </head>
 <body>
 
-<p>Primer párrafo</p>
+<p id="parrafo1" class="impar">Primer párrafo</p>
 
-<p class="segundo">Segundo párrafo</p>
+<p id="parrafo2" class="par">Segundo párrafo</p>
 
-<p id="parrafo3">Tercer párrafo</p>
+<p id="parrafo3" class="impar">Tercer párrafo</p>
 
 </body>
 </html>

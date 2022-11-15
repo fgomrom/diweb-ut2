@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: inline;
+        }
+        span {
+            display: block;
+        }
+        #segundo {
+            visibility: hidden;
+            /* Ocupa el lugar de segundo */
+            /*display: none;*/
+        }
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <div id="primero" onclick="document.getElementById('tercero').style.display='none'">primero <span>span1</span><span> span2</span></div>
+    <div id="segundo">segundo</div>
+    <div id="tercero">tercero</div>
+</body>
+</html>

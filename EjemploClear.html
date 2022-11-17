@@ -10,8 +10,6 @@
             background-color: blue;
             color:white;
             border: 1px solid black;
-            width: 100px;
-            height: 100px;
         }
         #div1 {
             float:left;
@@ -20,21 +18,21 @@
             float:right;
         }
         #div3 {
-            clear:right;
+            clear:left;
         }
         #div4 {
-            float:left;
+            clear:right;
         }
         #div5 {
-            float:left;
+            clear:both;
         }
     </style>
 </head>
 <body>
-    <div id="div1">div 1</div>
-    <div id="div2">div 2</div>
-    <div id="div3">div 3</div>
-    <div id="div4">div 4</div>
-    <div id="div5">div 5</div>
+    <div id="div1">float: left</div>
+    <div id="div2">float: right</div>
+    <div id="div3">clear: left</div>
+    <div id="div4">clear: right</div>
+    <div id="div5">clear: both</div>
 </body>
 </html>
